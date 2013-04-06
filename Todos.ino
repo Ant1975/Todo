@@ -64,7 +64,7 @@ void setup() {
 	names[2] = "completed";
 	names[3] = "order";
 
-	aJson.setNames(names, 3);
+	aJson.setNames(names, 4);
 
 	todos = aJson.parse("[{\"title\":\"Arduino JSON REST interface\",\"completed\":true,\"order\":1,\"id\":1}]");
 
